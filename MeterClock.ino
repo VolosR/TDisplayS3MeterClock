@@ -54,7 +54,7 @@ void setup() {
   tft.init();
   tft.setRotation(1);
   tft.fillScreen(TFT_BLACK);
-  tft.fill
+  
  
  for(int i=0;i<50;i++)
   grays[i]=tft.color565(i*5, i*5, i*5);
